@@ -1,0 +1,7 @@
+parameters:
+#    openify_aws2.example.class: Openify\Bundle\Aws2Bundle\Example
+
+services:
+#    openify_aws2.example:
+#        class: %openify_aws2.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
