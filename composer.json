@@ -20,5 +20,7 @@
 		"psr-0": {
 			"Openify\\Bundle\\Aws2Bundle": ""
 		}
-	}
+	},
+	"target-dir": "Openify/Bundle/Aws2Bundle",
+	"minimun-stability": "dev"
 }
