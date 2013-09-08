@@ -1,0 +1,24 @@
+{
+	"name":        "openify/aws2-bundle",
+	"type":        "library",
+	"description": "This is a Symfony2 Bundle for interfacing with Amazon Web Services Version 2 (AWS)",
+	"keywords":    ["amazon", "webservices", "aws", "s3","ec2","dynamodb" ],
+	"homepage":    "https://github.com/openify/Aws2Bundle",
+	"license":     "MIT",
+	"authors":     [
+		{
+			"name":     "Sylvain Witmeyer",
+			"email":    "sylvain.witmeyer@gmail.com",
+			"role":     "developer",
+			"homepage": "https://github.com/sylwit"
+		}
+	],
+	"require":     {
+		"aws/aws-sdk-php": "2.4.5"
+	},
+	"autoload":    {
+		"psr-0": {
+			"Openify\\Bundle\\Aws2Bundle": ""
+		}
+	}
+}
